@@ -1,1 +1,7 @@
+Author: Vivek Patel
+
 when I create a new git repository, it does not contain any commits nor track any files. Commits have to be created manually. We need to initialize it to create a new git repository for our directory.
+
+
+Staging area prepares files to be put in git repository from wrking directory. it lets you choose the files that you want to put in git repository.
+
