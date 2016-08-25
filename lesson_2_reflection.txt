@@ -12,3 +12,5 @@ git brnach allows you to create the other version of the program and still keep 
  
 
  visualizing a branch structure lets you see where you are right now and hot it might affect the program. we may lose the commit if we don't create a new branch.
+
+ we merge two version of the program to incelude the feature added while working on it on two different branches. We represent in the diagram so that we can see what's reachable and what's not.
