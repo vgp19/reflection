@@ -1,0 +1,1 @@
+when I create a new git repository, it does not contain any commits nor track any files. Commits have to be created manually. We need to initialize it to create a new git repository for our directory.
