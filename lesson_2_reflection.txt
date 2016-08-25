@@ -6,3 +6,7 @@ when I create a new git repository, it does not contain any commits nor track an
 Staging area prepares files to be put in git repository from wrking directory. it lets you choose the files that you want to put in git repository.
 
 Add the files to the staging area and update the file and then use diff to compare the changes in working directory and staging area. then use diff --staged to compare the files in staging area and repository. that way we can make sure that there is ony one logical change per commit.
+
+
+git brnach allows you to create the other version of the program and still keep the master version of the game. This way we can experiment with the program and not worry about loosing the working version of the program.
+ 
