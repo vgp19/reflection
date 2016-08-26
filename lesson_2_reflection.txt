@@ -20,3 +20,31 @@ git brnach allows you to create the other version of the program and still keep 
 
 
  When we use git add, we are sending the file to satging area. when we use git commit, we are sending the file to repository.
+
+ commands:
+ 
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
+
+
+
+
+
+ git add  |    Add a file to the staging area
+git commit  |    Commit the files from the staging area to the repository 
+git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository    
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git reset --hard  |    Undo all changes! There is no rollback for this, so be carefull!
+git checkout master  |    Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+git log --graph --oneline <branch1> <branch2>  |    Show a visual representation of the commit history within different branches
+git checkout -b new_branch_name  |    Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
+git branch -d name  |    Remove the branch with the specified name
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
