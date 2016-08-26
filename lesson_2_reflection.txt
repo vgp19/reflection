@@ -17,3 +17,6 @@ git brnach allows you to create the other version of the program and still keep 
 
  Git automatic merging may creates conflict, whereas manual won't do that.
  but manually you can not figure out what's conflicting.
+
+
+ When we use git add, we are sending the file to satging area. when we use git commit, we are sending the file to repository.
